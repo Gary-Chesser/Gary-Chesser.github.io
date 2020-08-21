@@ -9,7 +9,7 @@
 		<title>Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link id='theme' rel="stylesheet" type='text/css' href="assets/css/maindark.css" />
 	</head>
 	<body class="is-preload">
 		<div id='topL'><button class="closebtn" onclick="openNav()" title="Open Nav bar">&#62</button></div>
@@ -17,6 +17,7 @@
 			<div id="header">
 
 				<div class="top">
+					<button id='theme-toggle' class="closebtn" title="Toggle Dark Mode"><i class="fas fa-lightbulb"></i></button>
 					<button class="closebtn" onclick="closeNav()" title="Collapse Nav bar">&#60</button>
 					<!-- Logo -->
 						<div id="logo">
@@ -50,7 +51,6 @@
 				</div>
 
 			</div>
-
 		<!-- Main -->
 			<div id="main">
 				<!-- Intro -->
@@ -201,7 +201,6 @@
 					</ul>
 
 			</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -211,6 +210,8 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/navbar.js"></script>
+			<script src="assets/js/darktoggle.js"></script>
+
 
 	</body>
 </html>
