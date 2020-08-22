@@ -32,7 +32,7 @@
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<!--<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>-->
 							</ul>
 						</nav>
 				</div>
@@ -79,18 +79,40 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>Here is a collection of some of the coding projects that I have done during my time in college.</p>
+							<p>Here is a collection of some of the coding projects that I have done during my time in college.<br>
+							I do not currently have access to the movie search engine and the account creation files,<br> but I
+							will add them in as soon as possible.</p>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/payment.png" alt="" /></a>
+										<a href="javascript:hide(1)" class="image fit"><img src="images/payment.png" alt="" /></a>
+										<div id='pay'>
+											<h2>Features</h2>
+											<ul id='feats'>
+												<li>Required input fields</li>
+												<li>Responsive form transformation depending on payment type (ie. credit/debit or paypal)</li>
+												<li>Limited card validity check</li>
+											</ul>
+											<a href='assets/pay.rar' class='button scrolly' id="downloads" download>Download Files</a>
+										</div>
 										<header>
 											<h3>Payment Webpage</h3>
 										</header>
 									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/account.png" alt="" /></a>
+									<article class="item" onclick="hide(2)">
+										<a href="javascript:void(0)" class="image fit"><img src="images/account.png" alt="" /></a>
+										<div id='account'>
+											<h2>Features</h2>
+											<ul id='feats'>
+												<li>Dynamic new/existing user login page</li>
+												<li>Password hidden toggle</li>
+												<li>New username checked against existing usernames</li>
+												<li>New account information written to log file</li>
+												<li>Login information checked in log file</li>
+												<li>Minimum password strength requirment</li>
+											</ul>
+										</div>
 										<header>
 											<h3>Account Creation Form (WIP)</h3>
 										</header>
@@ -98,7 +120,24 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/calc.jpg" alt="" /></a>
+										<a href="javascript:hide(4)" class="image fit"><img src="images/calc.jpg" alt="" /></a>
+										<div id='calc'>
+											<h2>Features</h2>
+											<ul id='feats'>
+												<li>Enforced data input guidelines</li>
+												<li>Automated calculations for: <ul class="o">
+													<li>Min</li>
+													<li>Max</li>
+													<li>Median</li>
+													<li>Mean</li>
+													<li>Mode</li>
+													<li>Sum</li>
+													<li>Variance</li>
+													<li>Standard Deviation</li>
+												</ul></li>
+											</ul>
+											<a href='assets/calc.rar' class='button scrolly' id="downloads" download>Download Files</a>
+										</div>
 										<header>
 											<h3>Statistical Calculator</h3>
 										</header>
@@ -111,8 +150,17 @@
 									</article>-->
 								</div>
 								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/movie.jpg" alt="" /></a>
+									<article class="item" onclick="hide(3)">
+										<a href="javascript:void(0)" class="image fit"><img src="images/movie.jpg" alt="" /></a>
+										<div id='movie'>
+											<h2>Features</h2>
+											<ul id='feats'>
+												<li>Required input fields</li>
+												<li>Responsive form transformation depending on payment type (ie. credit/debit or paypal)</li>
+												<li>Limited card validity check</li>
+											</ul>
+											<!--<a href='assets/movie.zip' class='button scrolly' id="downloads" download>Download Files</a>-->
+										</div>
 										<header>
 											<h3>Movie Search Engine (WIP)</h3>
 										</header>
@@ -165,7 +213,7 @@
 					</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<!--<section id="contact" class="four">
 						<div class="container">
 
 							<header>
@@ -188,7 +236,7 @@
 							</form>
 
 						</div>
-					</section>
+					</section>-->
 
 			</div>
 

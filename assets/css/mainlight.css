@@ -49,7 +49,29 @@ body {
 #about{
 	color: rgb(31, 27, 27)
 }
-
+#pay{
+	padding-top: 32px;
+	background-color: rgba(235, 233, 233, 0.781);
+	display: none;
+}
+#movie{
+	padding-bottom: 32px;
+	background-color: rgba(235, 233, 233, 0.781);
+	display: none;
+}
+ul.o{
+	list-style-type: circle;
+}
+#account{
+	padding-bottom: 32px;
+	background-color: rgba(235, 233, 233, 0.781);
+	display: none;
+}
+#calc{
+	padding-top: 32px;
+	background-color: rgba(235, 233, 233, 0.781);
+	display: none;
+}
 ol, ul {
 	list-style: none;
 }
@@ -1817,6 +1839,10 @@ input, select, textarea {
 		list-style: disc;
 		padding-left: 1em;
 	}
+		#feats{
+			text-align: left;
+			padding-left: 2em;
+		}
 
 		ul li {
 			padding-left: 0.5em;
@@ -2002,6 +2028,8 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		border: 2px black;
+		border-style: outset;
 	}
 
 		.item header {
