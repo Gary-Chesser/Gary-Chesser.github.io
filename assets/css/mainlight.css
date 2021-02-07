@@ -57,6 +57,7 @@ body {
 	display: none;
 }
 #movie{
+	color: rgb(31, 27, 27);
 	padding-bottom: 32px;
 	background-color: rgba(235, 233, 233, 0.781);
 	display: none;
@@ -65,11 +66,13 @@ ul.o{
 	list-style-type: circle;
 }
 #account{
+	color: rgb(31, 27, 27);
 	padding-bottom: 32px;
 	background-color: rgba(235, 233, 233, 0.781);
 	display: none;
 }
 #calc{
+	color: rgb(31, 27, 27);
 	padding-top: 32px;
 	background-color: rgba(235, 233, 233, 0.781);
 	display: none;
