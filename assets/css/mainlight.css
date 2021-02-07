@@ -45,9 +45,11 @@ body {
 	position:fixed;
 	top: 0;
 }
-
+#portfolio{
+	color: rgb(31, 27, 27);
+}
 #about{
-	color: rgb(31, 27, 27)
+	color: rgb(31, 27, 27);
 }
 #pay{
 	padding-top: 32px;
