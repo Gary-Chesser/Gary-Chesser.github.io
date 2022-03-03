@@ -2298,7 +2298,32 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/techban.png");
+				background-repeat: repeat-x;
+				background-position: 
+				0 20%,
+				0 100%,
+				0 50%,
+				0 100%,
+				0 0;
+				background-size: 
+				2500px,
+				800px,
+				500px 200px,
+				1000px,
+				400px 260px;
+				animation: 50s para infinite linear;
+			}
+
+			@keyframes para {
+				100% {
+				background-position: 
+				-5000px 20%,
+				-800px 95%,
+				500px 50%,
+				1000px 100%,
+				400px 0;
+				}
 			}
 
 			#main > section.two {
